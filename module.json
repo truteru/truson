@@ -1,0 +1,52 @@
+{
+  "name": "monkey-serpent",
+  "title": "The Lost Tomb of Chuwen Kan",
+  "description": "<p>The Lost Tomb of Chuwen Kan is a 5E adventure for a group of 3 to 6 5th-level characters.</p>",
+  "version": "1.2.0",
+  "minimumCoreVersion": "0.7.7",
+  "compatibleCoreVersion": "1.0.0",
+  "minimumSystemVersion": "1.1.1",
+  "scripts": ["./module/monkey-serpent.js"],
+  "esmodules": [],
+  "styles": [],
+  "packs": [
+    {
+      "label": "Lost Tomb of Chuwen Kan Actors",
+      "entity": "Actor",
+      "name": "npcs",
+      "path": "packs/actors.db",
+      "system": "dnd5e"
+    },
+    {
+      "label": "Lost Tomb of Chuwen Kan Journal",
+      "entity": "JournalEntry",
+      "name": "journal",
+      "path": "packs/journal.db"
+    },
+    {
+      "label": "Lost Tomb of Chuwen Kan Items",
+      "entity": "Item",
+      "name": "items",
+      "path": "packs/items.db",
+      "system": "dnd5e"
+    },
+    {
+      "label": "Lost Tomb of Chuwen Kan Scenes",
+      "entity": "Scene",
+      "name": "scenes",
+      "path": "packs/scenes.db"
+    },
+    {
+      "label": "Lost Tomb of Chuwen Kan Macros",
+      "entity": "Macro",
+      "name": "macros",
+      "path": "packs/macros.db"
+    }
+  ],
+  "languages": [],
+  "authors": [],
+  "socket": false,
+  "url": "https://www.patreon.com/posts/44277945",
+  "manifest": "https://www.patreon.com/posts/44277945",
+  "download": "https://www.patreon.com/posts/44277945"
+}
